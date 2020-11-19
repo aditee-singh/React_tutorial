@@ -2,11 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 //import './Person.css';
 const person = (props) => {
-    const style = {
-        '@media (min-width:500px)':{
-            width: '450px'
-        }
-    };
+    
      const StyledDiv = styled.div`
      Width: 60%;
      margin:auto;
